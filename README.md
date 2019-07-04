@@ -3,7 +3,7 @@
 #### install flask
     pip install flask
    
-#### set flask    (run in command prompt)
+#### set which file to excecute, Ex: file name is app.py    (run in command prompt)
     set FLASK_APP=app
     
 #### run flask    (run in command prompt)
