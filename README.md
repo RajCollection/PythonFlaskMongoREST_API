@@ -1,21 +1,21 @@
-# PythonFlaskMongoREST_API
+## PythonFlaskMongoREST_API
 
 #### install flask
     pip install flask
    
-#### set flask    // run in command prompt
+#### set flask    (run in command prompt)
     set FLASK_APP=app
     
-#### run flask    // run in command prompt
+#### run flask    (run in command prompt)
     flask run
     
-#### if u want to change port number, by default it is 5000    // run in command prompt
+#### if u want to change port number, by default it is 5000    (run in command prompt)
     set FLASK_RUN_PORT=8000
     
-#### if u want to change custome host
+#### if u want to change custom host
     flask run --host=0.0.0.0
 
-### API Code app.py
+#### API Code (app.py)
 
     from flask import Flask
     from pymongo import MongoClient
